@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-1 fixed-top">
+      <div class="container">
+        <div class="navbar-brand">PORTFOLIO</div>
+        <!-- hamburger button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#my_portpolio">MyPortfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Slills</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                SNS
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="https://www.wantedly.com/id/takeshi_arihori_a">Wantedly</a></li>
+                <li><a class="dropdown-item" href="https://twitter.com/arihori13">Twitter</a></li>
+                <li><a class="dropdown-item" href="https://www.linkedin.com/in/arihori/">Linkedin</a></li>
+                <li><a class="dropdown-item" href="https://github.com/takeshi-arihori">GitHub</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+    <div class="container mt-5">
+      <!-- row -->
+      <div class="row">
+        <!-- col -->
+        <div class="d-lg-flex align-items-center mt-2">
+          <div class="col-12 col-lg-6 text-center">
+            <img src="images/myphoto.jpg" alt="myPhoto" class="img-thumbnail my_photo rounded-circle" width="3024"
+              height="4032">
+          </div>
+          <div class="col-12 col-lg-6">
+            <h1 class="my_name display-5 text-center">Takeshi Arihori</h1>
+            <p class="lead text-center">A passionate programming learner from Japan</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col text-center lead mt-4">
+          <p>
+            初めまして。有堀 豪と申します。学ぶのが大好きで、毎日プログラミングしてます。<br>
+            現在はTypeScript, AWS, Docker, React, Next.jsを学習中。
+          </p>
+        </div>
+      </div>
+
+      <hr>
+
+      <h2 class="display-5 text-center my-5" id="my_portpolio">My Portfolio</h2>
+      <div class="row mb-3">
+        <div class="col-lg-6 portfolios text-center">
+          <p class="lead">TETRIS</p>
+          <a href="https://tetris20230212.firebaseapp.com/">
+            <img class="img-fluid tetris rounded" src="images/tetris.png" alt="tetris_pic">
+          </a>
+          <p class="mt-4 lead">
+            HTML、CSS、JavaScriptで作成し、フレームワークは使用していません。<br>
+            JavaScriptの基礎（DOM、非同期処理など）を学ぶために作成しました。
+          </p>
+        </div>
+        <div class="col-lg-6 text-center">
+          <p class="lead">Tic Tac Toe</p>
+          <a href="https://recursion-tic-tac-toe.web.app/">
+            <img class="img-fluid tictactoe rounded" src="images/tictactoe.png" alt="tictactoe_pic">
+          </a>
+          <p class="mt-4 lead">
+            学習プラットフォーム「RecursionCS」の初心者チーム開発にて、Reactで作成しました。<br>
+            テーマはGitの練習と、モダンなフレームワークを体験することでした。
+          </p>
+        </div>
+      </div>
+
+      <hr>
+
+      <h2 class="text-center display-4 my-5">My Skills</h2>
+      <div class="row text-center" id="skills">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <img class="img-fluid skill-icon mb-4" src="images/javascript.svg" alt="JavaScript_img">
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <img class="img-fluid skill-icon mb-4" src="images/java.svg" alt="Java_img">
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <img class="img-fluid skill-icon mb-4" src="images/react.svg" alt="React_img">
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <img class="img-fluid skill-icon mb-4" src="images/nodejs.svg" alt="Node.js_img">
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <img class="img-fluid skill-icon mb-4" src="images/bootstrap.svg" alt="Bootstrap_img">
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <img class="img-fluid skill-icon mb-4" src="images/mongodb.svg" alt="MongoDB_img">
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <img class="img-fluid skill-icon mb-4" src="images/firebase.svg" alt="firebase_img">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer p-1 bg-light">
+    <div class="container text-center lead">
+      <small>Copyright &copy; 2023 Takeshi Arihori</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
